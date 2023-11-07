@@ -1,0 +1,50 @@
+h2 {
+	font-size: 1px !important;
+	visibility: hidden;
+}
+
+.BambooHR-ATS-Jobs-List {
+	padding: 2px 20px 40px 0px !important;
+	margin-bottom: 40px !important;
+	border-bottom: 1px solid black !important;
+}
+
+#BambooHR > div:nth-of-type(2) {
+	visibility: hidden !important;
+}
+
+.BambooHR-ATS-board a {
+	font-family: Arial;
+	text-decoration: none;
+	font-weight: normal !important;
+	font-size: 36px !important;
+	color: black;
+	line-height: 1 !important;
+	padding-top: 8px;
+
+}
+
+.BambooHR-ATS-board a:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+} 
+
+li > div {
+	color: black;
+	font-size: 16px !important;
+}
+
+.BambooHR-ATS-Location {
+	color: black;
+	font-size: 16px !important;
+}
+
+li > ul {
+	padding-bottom: 40px;
+}
+
+li > ul > li {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
